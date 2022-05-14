@@ -1,0 +1,104 @@
+.year span {
+    font-style: italic;
+    font-weight: 700;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    padding: 1rem 2rem;
+}
+.header-text {
+    margin-left: 1rem;
+    font-family: 'Impact', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.movie {
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: solid 2px #f3e41a;
+    background-color: #555555;
+    overflow: hidden;
+}
+
+.movie:hover {
+    background-color: grey;
+    margin-top: 10px;
+}
+
+
+
+.poster img {
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.more-info {
+    color: beige;
+}
+
+.title {
+    width: 400px;
+}
+
+.hor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movies {
+    max-width: 700px;
+    background-color: #212121;
+    color: white;
+    margin: auto;
+}
+
+img.logo {
+    height: 60px;
+    width: 90px;
+}
+
+body {
+    background-color: beige;
+}
+
+.contacts,
+.awards {
+    max-width: 500px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+section.main {
+    background-color: #212121;
+    padding: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    padding: 5px;
+}
